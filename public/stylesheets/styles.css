@@ -5,3 +5,68 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+@import url('https://fonts.googleapis.com/css?family=Arial');
+
+
+body {
+    margin: 0px;
+    background-color: #f7f9f9;
+    font-family: 'Arial';
+}
+
+nav {
+    background-color: #2081c3;
+
+}
+
+li {
+    margin: 30px 20px 30px 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-alg-c {
+    text-align: center;
+}
+.flex-d-c {
+    flex-direction: column;
+}
+
+/* img home */
+#home-beer {
+    max-width: 30%;
+    margin: 45px;
+}
+
+/* bttm home */
+.bttm-h {
+    background-color:#2082c3;
+	border-radius:13px;
+	cursor:pointer;
+	color:#ffffff;
+    font-size:17px;
+    margin-top: 30px;
+	padding:16px 31px;
+}
+
+.mb-40 {
+    margin-bottom: 60px;
+}
+
+.mt-40 {
+    margin-top: 30px;
+}
+
+.all-beers {
+    max-width: 15%;
+}
